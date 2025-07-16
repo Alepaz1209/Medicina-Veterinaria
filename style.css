@@ -1,0 +1,39 @@
+body {
+  background-color: #e6f2ff;
+  font-family: Arial, sans-serif;
+  color: #003366;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #004080;
+}
+
+.semester {
+  margin-bottom: 30px;
+}
+
+.subject {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #b3d9ff;
+  color: #003366;
+  transition: all 0.3s ease;
+}
+
+.subject.locked {
+  background-color: #cccccc;
+  color: #666666;
+  text-decoration: line-through;
+  cursor: not-allowed;
+}
+
+.subject.approved {
+  background-color: #004080;
+  color: white;
+  text-decoration: line-through;
+}
